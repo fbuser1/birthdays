@@ -1,5 +1,5 @@
 // Офлайн-кеш: віддаємо з кешу одразу, а в фоні оновлюємо з мережі
-const CACHE = "birthdays-v1";
+const CACHE = "birthdays-v2";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
